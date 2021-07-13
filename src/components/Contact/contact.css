@@ -1,0 +1,24 @@
+
+body html{
+  margin:0;
+  padding:0;
+}
+
+@media only screen and (min-width: 600px){
+  .contact{
+  max-height: fit-content; 
+  max-width:100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    
+  }
+} 
+  
