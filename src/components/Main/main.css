@@ -1,11 +1,14 @@
+
 @media screen and (min-width: 600px){
 
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
 main {
   display: grid;
 grid-template-columns: 200px auto;
 gap: 10px;
 height: 100vh;
-/* background-color: rgb(0, 0, 0); */
+font-family: 'M PLUS 1p', sans-serif;
+background-image: url();
  }
 }
 .icon{

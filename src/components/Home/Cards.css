@@ -9,13 +9,21 @@ align-items: center;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(2, 1fr); 
-grid-gap: 5px; 
+grid-gap: 9px; 
+
 
 
 }
 
 .cards .react-card-flip {
 width: 150px;
+font-style: normal;
+font-weight: 580;
+font-stretch: extra-expanded;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+align-content: center;
+
+
 }
 
 .cards a{
@@ -25,19 +33,23 @@ text-decoration: none;
  
   .front, .back {
   
-  height:100px;
+  height:90px;
   border: 2px solid #e7e7e7;
   border-radius: 6px;
   padding: .5rem;
   perspective: 1000px;
   position: center;
-  text-align: auto;
+  text-align: center;
   transition: transform 3s;
   transform-style: preserve-3d;
+    }
+
+    .back{
+      color: whitesmoke;
+      background-color: rgb(230, 30, 30);
+    }
   
-   
-
-  }
-
-
+    h2{
+     text-align: center;
+    }
  
