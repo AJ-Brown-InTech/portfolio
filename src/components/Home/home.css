@@ -3,10 +3,40 @@ body html{
   padding:0;
 }
 
+.homebtn{
+
+
+  padding: .3em 1em;
+   cursor: pointer;
+   outline:none;
+   background-color: blueviolet;
+   align-items: center;
+   border: 2px black solid;
+   border-radius: 10%;
+ }
+ .homebtn{
+  float:right;
+  margin-top: 0%;
+  margin-right: 5%; 
+}
+
 @media only screen and (min-width: 600px){
-  
-} 
-  
-  
+  .homebtn{
 
 
+    padding: .3em 1em;
+     cursor: pointer;
+     outline:none;
+     background-color: blueviolet;
+     align-items: center;
+     border: 2px black solid;
+     border-radius: 10%;
+   }
+   .homebtn{
+    float:right;
+    margin-top: .002%;
+    margin-right: 5%; 
+}
+
+}
+  

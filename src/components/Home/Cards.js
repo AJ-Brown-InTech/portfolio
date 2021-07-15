@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 
 
+
 export default function Cards(){
  const cardData = [
    {front:"About",   
@@ -10,22 +11,22 @@ export default function Cards(){
   },
 
    {front:"Background.", 
-   back: "Learn about my Experience.",
+   back: "Take a look at my experience",
    link: "/background"
   },
   {front:"Skills",   
-    back: "Learn about some of the technologies I use.",
+    back: "View some of the tools I use.",
     link: "/skill"
   },
   {front:"Contact",   
-    back: "Learn what options you have to contact me.",
+    back: "Lets Connect",
     link: "/contact"
   },
  ]
 
     return (
       <>
-      <div className="container">
+      <div className="container" >
         <div className="cards">
         
               {cardData.map( x=> <Card key={x.front} cardData={x} /> )}

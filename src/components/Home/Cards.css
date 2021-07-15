@@ -18,7 +18,7 @@ grid-gap: 9px;
 .cards .react-card-flip {
 width: 150px;
 font-style: normal;
-font-weight: 580;
+font-weight: 590;
 font-stretch: extra-expanded;
 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 align-content: center;
@@ -51,5 +51,11 @@ text-decoration: none;
   
     h2{
      text-align: center;
+     /* text-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
+     color: whitesmoke;
+     line-height: 1;
+     /* text-shadow: .5px 0.5px .3px rgb(27, 26, 26); */
+     
+     
     }
- 
+    

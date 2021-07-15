@@ -1,17 +1,13 @@
 
 @media screen and (min-width: 600px){
 
-  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap');
 main {
   display: grid;
 grid-template-columns: 200px auto;
-gap: 10px;
+gap: 0%;
 height: 100vh;
 font-family: 'M PLUS 1p', sans-serif;
-background-image: url();
+
  }
-}
-.icon{
-  top:0;
-  height:70px;
 }

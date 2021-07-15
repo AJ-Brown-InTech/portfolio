@@ -13,30 +13,32 @@ import {Switch, Route, BrowserRouter as Router, Redirect} from 'react-router-dom
 
 export default function Main() {
   return (
-
-    <Router>
-      <main>
-        <Navbar/>
-        <Switch>
-        <Route path='/home'>
-            <Home/>
-          </Route>
-          <Route path='/about'>
-            <About/>
-          </Route>
-          <Route path='/background'>
-            <Background/>
-          </Route>
-          <Route path='/skill'>
-            <Skill/>
-          </Route>
-          <Route path='/contact'>
-            <Contact/>
-          </Route>
-          <Redirect to='/home'/>
-        </Switch>
-      </main>
-    </Router>
+<div style={{backgroundColor: 'whitesmoke'}}>
+  
+      <Router>
+        <main>
+          <Navbar/>
+          <Switch>
+          <Route path='/home'>
+              <Home/>
+            </Route>
+            <Route path='/about'>
+              <About/>
+            </Route>
+            <Route path='/background'>
+              <Background/>
+            </Route>
+            <Route path='/skill'>
+              <Skill/>
+            </Route>
+            <Route path='/contact'>
+              <Contact/>
+            </Route>
+            <Redirect to='/home'/>
+          </Switch>
+        </main>
+      </Router>
+</div>
 
   )
 }

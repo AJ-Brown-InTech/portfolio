@@ -1,0 +1,6 @@
+ul {
+  display: grid;
+  align-content: left;
+grid-template-areas:  
+"E L G";
+}
