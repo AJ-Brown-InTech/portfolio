@@ -1,0 +1,43 @@
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+}  
+
+
+.cards{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr); 
+grid-gap: 5px; 
+
+
+}
+
+.cards .react-card-flip {
+width: 150px;
+}
+
+.cards a{
+text-decoration: none;
+}
+ 
+ 
+  .front, .back {
+  
+  height:100px;
+  border: 2px solid #e7e7e7;
+  border-radius: 6px;
+  padding: .5rem;
+  perspective: 1000px;
+  position: center;
+  text-align: auto;
+  transition: transform 3s;
+  transform-style: preserve-3d;
+  
+   
+
+  }
+
+
+ 

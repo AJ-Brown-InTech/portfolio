@@ -1,30 +1,40 @@
-import React, {useState} from 'react'
-import ReactCardFlip from 'react-card-flip'
+import React from 'react'
+import Card from './Card'
+
 
 export default function Cards(){
-  
-  const CardFlip = () => {
-  const [isFlipped, setFlipped] = useState(false)
+ const cardData = [
+   {front:"About",   
+    back: "Learn about me",
+    link: "/about"
+  },
 
-  const handleClick = () => {
-    setFlipped(!isFlipped)
-  } 
+   {front:"Background.", 
+   back: "Learn about my Experience.",
+   link: "/background"
+  },
+  {front:"Skills",   
+    back: "Learn about some of the technologies I use.",
+    link: "/skill"
+  },
+  {front:"Contact",   
+    back: "Learn what options you have to contact me.",
+    link: "/contact"
+  },
+ ]
 
     return (
-      
-        <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
-          <div>
-            This is the front of the card.
-            <button onClick={handleClick}>Click to flip</button>
-          </div>
-          <div>
-            This is the back of the card.
-            <button onClick={handleClick}>Click to flip</button>
-          </div>
-        </ReactCardFlip>
-      
+      <>
+      <div className="container">
+        <div className="cards">
+        
+              {cardData.map( x=> <Card key={x.front} cardData={x} /> )}
+        
+        </div>
+      </div>
+      </>
     )
-  }
+  
   
 }
 
