@@ -1,5 +1,29 @@
 .nav {
-  border: solid 0px rgb(230, 184, 184);
+  border-right: solid 1.5px slateblue;
+  border-radius: 8px;
+  border-style:groove;
   padding:-30px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 15px 25px, rgba(0, 0, 0, 1) 0px 10px 10px;
+  
    
+}
+.select{
+  color:  'blanchedalmond';
+  
+}
+.resume{
+
+text-decoration: none;
+position: absolute;
+position: center; 
+bottom: 10%; 
+
+
+}
+
+.divvy{
+  display:center;
+  text-align:center;
+  margin-right:40%
+
 }

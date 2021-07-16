@@ -21,7 +21,7 @@ export default function Card(props){
     
           <Link to={props.cardData.link}>
             <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
-              <div className="front" onMouseOver={handleClick} style={{backgroundColor: `SlateBlue`}}>
+              <div className="front" onMouseOver={handleClick} >
                 {props.cardData.front}
               </div>
               <div className="back" onMouseOver={handleClick}>

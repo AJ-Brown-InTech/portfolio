@@ -13,7 +13,7 @@ import {Switch, Route, BrowserRouter as Router, Redirect} from 'react-router-dom
 
 export default function Main() {
   return (
-<div style={{backgroundColor: 'whitesmoke'}}>
+<div style={{backgroundColor: 'BlanchedAlmond'}}>
   
       <Router>
         <main>

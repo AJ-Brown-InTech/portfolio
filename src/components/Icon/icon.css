@@ -3,4 +3,21 @@ ul {
   align-content: left;
 grid-template-areas:  
 "E L G";
+list-style-type: none;
 }
+.getInTouch{
+  bottom:0;
+display: center;
+text-align: center;
+}
+
+
+ul{
+  display:center;
+  position: absolute; bottom: 1px; 
+}
+
+
+
+
+

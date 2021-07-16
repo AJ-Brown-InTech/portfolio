@@ -4,6 +4,8 @@ import Select from 'react-select'
 import Icon from '../Icon/icon'
 
 
+
+
 import './navbar.css'
 
 
@@ -27,8 +29,10 @@ export default function Navbar(){
  
 <div className="nav">
   
-  <Select placeholder='Menu' options={options} onChange={({value}) => {history.push(value)}}/> 
-  
+  <Select className="select" placeholder='Menu' options={options} onChange={({value}) => {history.push(value)}}/> 
+  <div className="divvy">
+    <a className="resume" href="https://drive.google.com/file/d/1vU9ftsl50yItiCn-vT9zHvBrOi9Xn65M/view?usp=sharing" target="_blank"> Resume </a>
+    </div>
   <Icon/>
 </div>
 

@@ -12,18 +12,18 @@ export default function Home(){
       
         
           <motion.div className="home" 
-             //initial={{opacity: .01}}
-             //animate={{opacity: 1}}
-           // transition={{delay: 1, duration: 1 }}
+             initial={{opacity: .1}}
+             animate={{opacity: 1}}
+             transition={{delay: .3, duration: .7 }}
             >
-            <Typist.Delay ms={500} >
-              <h2>Hey, I'm AJ. <br/ > A Front-end Engineer.</h2>
-              </Typist.Delay>
+            <Typist>
+              <h2 >Hey, I'm AJ.</h2>
+              </Typist>
               <br/ >
               <Cards/> 
               <br/ >
-              <Typist.Delay ms={1000}><h2>Feel free to look around.</h2>             
-              </Typist.Delay>
+              <Typist><h2 >Feel free to look around.</h2>             
+              </Typist>
           </motion.div>
         
     )
