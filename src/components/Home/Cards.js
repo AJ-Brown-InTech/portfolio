@@ -28,9 +28,7 @@ export default function Cards(){
       <>
       <div className="container" >
         <div className="cards">
-        
-              {cardData.map( x=> <Card key={x.front} cardData={x} /> )}
-        
+        {cardData.map( x => <Card key={x.front} cardData={x} /> )}
         </div>
       </div>
       </>
