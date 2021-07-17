@@ -1,6 +1,5 @@
 import React from 'react'
 import './skill.css'
-
 import Tools from './Tools'
 
 export default function Skill(){
@@ -9,7 +8,7 @@ export default function Skill(){
 
     <div className="skill">
 
-hello world
+<Tools/>
     </div>
     
    

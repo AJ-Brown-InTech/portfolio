@@ -1,14 +1,21 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import Tool from './tool.css'
 
-
-return (
-<div>
-    <main style={{backgroundColor: 'white'}}>
-<h1>{toolsData.tool}</h1>
-<p>{}</p>
+export default function showSkill({toolData}){
+    return (
+        
     
-    </main>
+        // <motion.main className ="tool" >
+        <div className="data"style={{backgroundColor: 'whitesmoke'}}>
+        <img className="img" style={{backgroundColor: 'whitesmoke'}} src={toolData.image}  alt="Programming Tool"/>
+        <h2>{toolData.tool}</h2>
+        </div>
+        // </motion.main>
 
-</div>
-)
+
+    
+
+    )
+
+}
