@@ -7,7 +7,7 @@ export default function Skill(){
   return(
 
     <div className="skill">
-<h2> Heres some of the tools I currently use </h2>
+<h2> Here are some of the tools I currently use </h2>
 <Tools/>
     </div>
     

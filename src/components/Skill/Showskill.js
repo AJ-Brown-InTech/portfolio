@@ -8,7 +8,11 @@ export default function showSkill({toolData}){
         
     
             
-            <motion.div className="sub">
+            <motion.div className="sub" initial={{ x: '-100vw'}}
+            animate={{x: 0}}
+            transition={{type: 'spring', duration: 1.95, bounce: .6}}
+            >
+
             
                 <motion.div className="data"style={{backgroundColor: 'whitesmoke'}} whileHover={{scale: .9,
                  textShadow: "0px 0px 9px white",}}>
