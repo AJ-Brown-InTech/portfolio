@@ -32,11 +32,11 @@ export default function Tools() {
   
        return (
 
-        <div className="sub" >
+        
         <div className="sum">
         {toolData.map(x => <Showskill key={x.tool} toolData={x}/>)}
         </div>
-        </div>
+        
 
       )
     
