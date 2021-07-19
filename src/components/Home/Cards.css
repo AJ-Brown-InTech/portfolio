@@ -20,7 +20,7 @@ width: 150px;
 font-style: normal;
 font-weight: 590;
 font-stretch: extra-expanded;
-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 8px 18px, rgba(0, 0, 0, 0.23) 0px 4px 2px;
 align-content: center;
 
 
@@ -35,7 +35,7 @@ text-decoration: none;
   
   height:80px;
   border: 2px solid blanchedalmond;
-  border-radius: 9px;
+  border-radius: 2px;
   padding: .4rem;
   perspective: 1000px;
   position: center;

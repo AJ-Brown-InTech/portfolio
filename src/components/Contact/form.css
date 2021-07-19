@@ -1,0 +1,35 @@
+.form{
+  margin-top: 50px;
+  width: 21%;
+  background-color: slateblue;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 8px 18px, rgba(0, 0, 0, 0.23) 0px 4px 2px;
+align-content: center;
+font-weight: 675;
+color: blanchedalmond;
+border: rgb(252, 204, 199) solid 2px;
+border-radius: 10px;
+padding: 7px;
+text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.input{
+  display:grid;
+  justify-content: center;
+  align-items:center;
+}
+
+form{
+  display: inline-block
+}
+
+.btn{
+  color: slateblue;
+  background-color: blanchedalmond;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  margin-top: 8px
+}
