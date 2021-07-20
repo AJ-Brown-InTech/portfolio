@@ -7,6 +7,7 @@ import Navbar from '../Navbar/Navbar'
 import Home from '../Home/Home'
 
 
+
 import './main.css'
 import {Switch, Route, BrowserRouter as Router, Redirect} from 'react-router-dom'
 

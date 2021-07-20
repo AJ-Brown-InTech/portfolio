@@ -16,6 +16,7 @@ export default function Home(){
              animate={{opacity: 1}}
              transition={{delay: .3, duration: .7 }}
             >
+                <h2>Home </h2>
             <Typist>
               <h2 >Hey, I'm AJ.</h2>
               </Typist>

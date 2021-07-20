@@ -6,7 +6,7 @@ body html{
 }
 
 
-@media only screen and (min-width: 600px){
+/* @media only screen and (min-width: 600px){
   .about{
     
     max-height: 100%;
@@ -20,4 +20,22 @@ body html{
     -o-background-size: cover;
     background-size: cover;
   }
+} */
+
+.about{
+  justify-content: center;
+  align-items:center;
+  margin:10px;
+
+}
+
+.me{
+height: 30%;
+width: 20%;
+border: solid slateblue .5px;
+border-radius: 50%;
+float: right;
+clear: right;
+display: block;
+     margin-left: auto;
 }

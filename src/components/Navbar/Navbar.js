@@ -21,7 +21,6 @@ export default function Navbar(){
     {value: "/background", label: "Background"},
     {value: "/skill", label: "Skills"},
     {value: "/contact", label: "Contact"},
-    
 
   ]
  
