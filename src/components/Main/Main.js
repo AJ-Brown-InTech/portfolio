@@ -5,21 +5,24 @@ import Skill from '../Skill/Skill'
 import Contact from '../Contact/Contact'
 import Navbar from '../Navbar/Navbar'
 import Home from '../Home/Home'
-
+import { AnimatePresence, motion } from 'framer-motion'
 
 
 import './main.css'
-import {Switch, Route, BrowserRouter as Router, Redirect} from 'react-router-dom'
+import {Switch, Route, BrowserRouter as Router, Redirect, useLocation} from 'react-router-dom'
 
 
 export default function Main() {
+  const location = useLocation()
+  
   return (
 <div style={{backgroundColor: 'BlanchedAlmond'}}>
   
       <Router>
         <main>
           <Navbar/>
-          <Switch>
+          <AnimatePresence exitBeforeEnter>
+          <Switch >
           <Route path='/home'>
               <Home/>
             </Route>
@@ -37,6 +40,7 @@ export default function Main() {
             </Route>
             <Redirect to='/home'/>
           </Switch>
+          </AnimatePresence>
         </main>
       </Router>
 </div>

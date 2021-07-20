@@ -1,14 +1,14 @@
 import React from 'react'
 import './about.css'
 import {Link} from 'react-router-dom'
-import{motion} from 'framer-motion'
+import{AnimatePresence, motion} from 'framer-motion'
 import me from '../About/me.JPG'
 
 
 export default function About(){
  return(
   <>
-    <div >
+    <motion.div initial={{scaleY: 0}} animate={{scaleY:1}} exit={{scaleY:0}} transition={{duration: .5}}>
     <h2>About </h2>
     <p className="about">
     <img className="me" src={me} alt="Me"/>
@@ -20,7 +20,7 @@ export default function About(){
     </p>
     
     
-    </div>
+    </motion.div>
    
   </>
   )

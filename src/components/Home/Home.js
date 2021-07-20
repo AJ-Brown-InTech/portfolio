@@ -12,9 +12,7 @@ export default function Home(){
       
         
           <motion.div className="home" 
-             initial={{opacity: .1}}
-             animate={{opacity: 1}}
-             transition={{delay: .3, duration: .7 }}
+             initial={{scaleY: 0}} animate={{scaleY:1}} exit={{scaleY:0}} transition={{duration: .5}}
             >
                 <h2>Home </h2>
             <Typist>
