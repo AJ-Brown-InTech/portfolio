@@ -1,8 +1,11 @@
+
+@media only screen and (min-width: 600px){
+
 ul {
   display: grid;
   align-content: left;
 grid-template-areas:  
-"E L G";
+"E L G R";
 list-style-type: none;
 }
 .getInTouch{
@@ -17,7 +20,7 @@ ul{
   position: absolute; bottom: 1px; 
 }
 
-
+}
 
 
 

@@ -22,9 +22,11 @@ const prevSlide = () => {
     <section className="slider">
     <FaArrowAltCircleLeft className="left" onClick={prevSlide} />
     <FaArrowAltCircleRight className="right" onClick={nextSlide}/>
-    <div style ={{background: `url(${slides[slideIndex].image}) center/cover`}}> 
-    <h3>{slides[slideIndex].title}</h3>
-    <p>{slides[slideIndex].text} </p>
+    <div classname="foo">
+      <div className="cover" style ={{background: `url(${slides[slideIndex].image}) center/cover`}}>
+      <h3>{slides[slideIndex].title}</h3>
+      <p>{slides[slideIndex].text} </p>
+      </div>
     </div>
     
     

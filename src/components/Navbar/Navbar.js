@@ -30,9 +30,7 @@ export default function Navbar(){
 <div className="nav">
   
   <Select className="select" placeholder='Menu' options={options} onChange={({value}) => {history.push(value)}}/> 
-  <div className="divvy">
-    <a className="resume" href="https://drive.google.com/file/d/1vU9ftsl50yItiCn-vT9zHvBrOi9Xn65M/view?usp=sharing" target="_blank"> Resume </a>
-    </div>
+ 
   <Icon/>
 </div>
 

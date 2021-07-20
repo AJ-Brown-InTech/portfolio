@@ -1,21 +1,49 @@
+
+
+
+.sub{
+  margin:0px;
+  display:flex;
+  justify-content: center;
+  align-items:center; 
+}
+.sum{
+  flex-shrink: inherit;
+  flex-shrink: initial;
+  flex-shrink: revert;
+  flex-shrink: unset;
+}
+
+img{
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  width: 10%;
+}
+.data{
+  max-width: 50%;
+  max-height: 50%;
+}
+@media only screen and (min-width: 600px){
+
 .sub{
   margin:0px;
   display:flex;
   justify-content: center;
   align-items:center; 
   }
-.sub{
- 
-}
+
 
 .sum{
   display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr); 
-    position:absolute;
-    bottom:10%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /* bottom:10%;
     right:10%;
-    left:30%;
+    left:30%; */
       
   }
 
@@ -46,7 +74,7 @@ img{
   
 } 
 
-
+}
 
 
 

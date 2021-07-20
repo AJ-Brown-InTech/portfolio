@@ -1,3 +1,28 @@
+
+.form{
+ 
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  background-color: slateblue;
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 8px 18px, rgba(0, 0, 0, 0.23) 0px 4px 2px;
+
+font-weight: 675;
+color: blanchedalmond;
+border: rgb(252, 204, 199) solid 2px;
+
+text-align: center;
+
+}
+.input{
+  display:grid;
+  justify-content: center;
+  align-items:center;
+}
+
+@media only screen and (min-width: 600px){
+
 .form{
   margin-top: 50px;
   width: 21%;
@@ -32,4 +57,5 @@ form{
   margin-right: auto;
   border-radius: 12px;
   margin-top: 8px
+}
 }

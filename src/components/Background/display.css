@@ -1,19 +1,25 @@
+
+
+.cover{
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .slider{
   position: relative;
-  height: 100%;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
+
+  
 }
 
 .image{
   border-radius: 12px;
   height:100%;
   border-radius:5%;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
-
+@media only screen and (min-width: 600px){
 .right{
   position: absolute;
   top:50%;
@@ -43,4 +49,5 @@
   opacity:1;
   transition-duration:1s;
   transform: scale(1.08);
+}
 }

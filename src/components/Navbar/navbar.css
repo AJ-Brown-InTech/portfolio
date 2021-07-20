@@ -24,6 +24,8 @@ bottom: 15%;
 .divvy{
   display:center;
   text-align:center;
-  margin-right:40%
+  margin-right:auto;
+  margin-left:auto;
+
 
 }
