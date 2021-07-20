@@ -5,6 +5,9 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5px;
+border: solid slateblue 1px;
+box-shadow: rgba(0, 0, 0, 1) 0px 15px 25px, rgba(0, 0, 0, 1) 0px 10px 10px;
 }
 
 .slider{
@@ -17,6 +20,7 @@
   border-radius: 12px;
   height:100%;
   border-radius:5%;
+  opacity: .5;
  
 }
 @media only screen and (min-width: 600px){
@@ -43,11 +47,31 @@
 .slide{
   opacity:0;
   transition-duration: 1s ease;
+  opacity: .5;
 }
 
 .slide-active{
   opacity:1;
   transition-duration:1s;
   transform: scale(1.08);
+  opacity: .5;
 }
+}
+
+.title{
+  font-weight:800;
+  color:rgb(0, 0, 0);
+  
+  border-radius: 5px;
+  box-shadow: rgba(254, 255, 254, 0.19) 0px 8px 18px, rgba(0, 0, 0, 0.23) 0px 4px 2px;
+align-content: center;
+text-align: center;
+opacity:15;
+
+
+}
+
+.cover{
+
+  opacity: .7
 }

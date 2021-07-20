@@ -24,8 +24,8 @@ const prevSlide = () => {
     <FaArrowAltCircleRight className="right" onClick={nextSlide}/>
     <div classname="foo">
       <div className="cover" style ={{background: `url(${slides[slideIndex].image}) center/cover`}}>
-      <h3>{slides[slideIndex].title}</h3>
-      <p>{slides[slideIndex].text} </p>
+      <h4 className="title">{slides[slideIndex].title}</h4>
+      <p className="title">{slides[slideIndex].text} </p>
       </div>
     </div>
     

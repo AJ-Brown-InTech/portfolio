@@ -1,5 +1,5 @@
 import React from 'react'
-import'./background.css'
+
 import {Link} from 'react-router-dom'
 import Displayinfo from './Displayinfo'
 import { Info } from './Info'
